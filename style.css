@@ -3209,3 +3209,78 @@ footer a:hover{
 
 
 }
+
+
+/* ==========================================
+   IMAGE MODAL
+========================================== */
+
+.image-modal{
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.85);
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:2000;
+
+    padding:30px;
+
+}
+
+
+.image-modal img{
+
+    max-width:90%;
+
+    max-height:90vh;
+
+    border-radius:15px;
+
+    object-fit:contain;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.5);
+
+}
+
+
+
+.close-image{
+
+    position:absolute;
+
+    top:30px;
+
+    right:40px;
+
+    color:white;
+
+    font-size:45px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+}
+
+
+
+.clickable-image{
+
+    cursor:pointer;
+
+}
+
+
+.clickable-image:hover{
+
+    opacity:.85;
+
+}
